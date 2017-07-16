@@ -22,8 +22,7 @@ $( document ).ready(function(){
   //$('.collapsible').collapsible();
   $(".button-collapse").sideNav();
 	window.setInterval(function(){
-		console.log("EJECUTE WE")
 		$('select').material_select();
 		$('.tooltipped').tooltip({delay: 50});
-	}, 3000)
+	}, 6000)
 })
